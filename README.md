@@ -10,7 +10,9 @@ vercel-kv-sdk is a simple toolkit for vercel kv db which warped from vercel REST
 ```
 pip install vercel_kv_sdk
 ```
-#### pull your vercel kv environment variables
+#### Connect to a project
+![connect to project](./image/connect.png)
+#### Pull your vercel kv environment variables
 
 ```
 vercel env pull .env.development.local
