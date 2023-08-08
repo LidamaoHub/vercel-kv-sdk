@@ -11,7 +11,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="vercel_kv_sdk",
-    version="0.1.0",
+    version="0.1.2",
     description="https://vercel.com/docs/storage/vercel-kv/rest-api",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -27,7 +27,7 @@ setup(
     ],
     py_modules=["vercel_kv_sdk"],
     include_package_data=True,
-    install_requires=["python-dotenv>=0.21.1","requests"],
+    install_requires=["python-dotenv>=0.21.1","requests","pydantic>=1.10.11"],
     extras_require={'dev': ['pytest', 'tox']},
     entry_points={},
 )
