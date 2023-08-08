@@ -1,3 +1,0 @@
-include *.py
-recursive-include src *.py
-recursive-include tests *.py

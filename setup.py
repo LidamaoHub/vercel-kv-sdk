@@ -10,13 +10,13 @@ README = (HERE / "README.md").read_text()
 
 # This call to setup() does all the work
 setup(
-    name="vercel_kv",
-    version="0.1.4",
+    name="vercel_kv_sdk",
+    version="0.1.0",
     description="https://vercel.com/docs/storage/vercel-kv/rest-api",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/bestK/python-vercel-kv",
-    author="bestk",
+    url="https://github.com/LidamaoHub/vercel-kv-sdk",
+    author="Lidamao",
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",
@@ -25,9 +25,9 @@ setup(
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
     ],
-    package_dir={"": "src"},
+    py_modules=["vercel_kv_sdk"],
     include_package_data=True,
-    install_requires=["python-dotenv==1.0.0"],
+    install_requires=["python-dotenv>=0.21.1","requests"],
     extras_require={'dev': ['pytest', 'tox']},
     entry_points={},
 )
