@@ -27,7 +27,7 @@ setup(
     ],
     py_modules=["vercel_kv_sdk"],
     include_package_data=True,
-    install_requires=["python-dotenv>=0.21.1","requests","pydantic>=1.10.11"],
+    install_requires=["python-dotenv>=0.21.1","requests","pydantic==1.10.11"],
     extras_require={'dev': ['pytest', 'tox']},
     entry_points={},
 )
