@@ -29,7 +29,7 @@ mv .env.development.local .env
 #### then you can use vercel_kv_sdk in your project
 ```python
 
-from vercel_kv import KV
+from vercel_kv_sdk import KV
 
 kv = KV()
 kv.set("count",1)
